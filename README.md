@@ -7,3 +7,5 @@ git ls-files hello.txt
 mkdir -p .github/workflows
 nano .github/workflows/read-hello.yml
 git add .
+git commit -m "Add GitHub Actions workflow to read hello.txt"
+git push origin main
